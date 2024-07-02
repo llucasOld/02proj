@@ -1,0 +1,290 @@
+@font-face {
+    font-family:font1 ;
+    src: url(fonts/coolvetica\ condensed\ rg.otf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(fonts/LEMONMILK-Bold.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: solid 1px red; */
+    color: #000000;
+
+
+}
+
+
+body{
+margin: 0;
+padding: 0;background-color: black;
+
+}
+
+
+
+
+
+
+footer{
+    background-color: rgb(87, 48, 18);
+    margin-top: 70px;
+    height: 900px;
+}
+
+
+
+
+footer .container{
+    display: flex;
+    margin-top: 100px;
+  
+}
+
+
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 190px; */
+}
+
+.container1, .carousel{
+    margin-left: 25px;
+    margin-top: 60px;
+}
+
+.carousel{
+    width: 300px;
+    /* margin-top: 50%; */
+    height: 120px;
+}
+
+.carousel-inner{
+    height: 150px;
+}
+
+.carousel-inner h4{
+    color: #ffffff;
+}
+
+.carousel-inner p{
+    color: #077605;
+    font-weight: 900;
+}
+
+
+
+.caixaverde{
+    box-shadow: 0px 0px 30px 2px;
+    background-color: #077605;
+    background-attachment: fixed;
+    padding: 35px;
+    /* margin-left: 25px; */
+    width: 700px;
+    margin-top: 2%;
+    margin-left: 15px;
+    margin-right: 160px;
+    border-radius: 8px;
+    
+}
+
+
+.caixaverde h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+    font-size: 40px; 
+    color: #000000; 
+}
+
+.caixaverde p{
+   
+        font-family: "Play", sans-serif;
+        font-weight: 700;
+        font-style: normal;  
+}
+
+.caixaverde button{
+    margin-left: 40px;
+    margin-top: 10px;
+    height: 100px;
+    width: 190px; 
+     background-color: #00000042;
+    border: none;
+    border: solid rgb(0, 0, 0);
+    transition: 0.6s;
+    border-radius: 4px;
+}
+
+
+.caixaverde button:hover{
+    border: solid rgb(156, 156, 156);
+    background-color: #b2b7bb48;
+}
+
+.caixaverde img{
+    height: 40px;
+}
+
+.mini-verde{
+    /* height: 50px;
+    width: 50px; */
+
+    position: absolute;
+    right: 1%;
+    top: 12%;
+}
+
+.mini-verde img{
+    height: 40px;   
+    background-color: #077605;
+    border-radius: 10px;
+}
+
+.mapa img{
+    margin-left: 170%; 
+}
+
+
+
+
+
+
+.home{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+
+.home2{
+    margin-left: 110px;
+    
+    
+} 
+
+ .home3{
+    margin-left: 110px;
+    
+} 
+
+.home iframe{
+    margin-left: 200px;
+    height: 170px;
+    width: 340px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 40px 5px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.local{
+    height: 50px;
+    margin-left: 350px;
+    margin-top: -750%;
+}
+
+
+
+.redes{
+    font-size: 40px;
+    color: #000000;
+}
+
+
+
+
+
+
+
+.fa-linkedin{
+    color: #0e76a8 ;
+
+
+}
+
+
+.fa-facebook{
+    color:  #3b5998;
+}
+
+
+.redes img{ 
+    width: 38px;
+    margin-top: -10px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 560px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+
+    body {
+        background-color: gray;
+        padding: 10px; 
+    }
+
+    footer{
+        height: 1600px;
+        flex-direction: column;
+    }
+
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caixaverde {
+        width: 90%;
+        margin: 10px auto; 
+        padding: 15px;
+    }
+
+    .caixaverde h2 {
+        font-size: 30px; 
+    }
+
+    .home {
+        margin-top: 200px;
+        flex-direction: column;
+        align-items: center; 
+        margin-left: -100px;
+    }
+
+    .home iframe {
+        width: 90%;
+        height: auto;
+        margin: 10px 0; 
+    }
+
+    .local {
+        text-align: center; 
+        margin: 10px 0; 
+    }
+
+}
